@@ -1,7 +1,6 @@
 @extends ('layout.v_layout')
 
 @section('content')
-
         <div class="my-3">
             <div class="alert alert-warning text-center">
                 You have 5 pending certificates to publish

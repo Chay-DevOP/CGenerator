@@ -98,7 +98,7 @@
         </script>
     @endif
 
-    <div class="row" style="height: 100vh; display: flex; margin: 0;">
+    <div class="row" style="display: flex; margin: 0;">
         @include('partials.navbar')
 
         <div class="main-content ms-4" style="flex: 1; padding: 18; font-family: 'Poppins', sans-serif;">

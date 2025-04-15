@@ -11,7 +11,7 @@
                 <div class="btn-group">
                     <button class="btn btn-light bg-light rounded-circle mx-1 px-3 dropdown-toggle"
                         data-bs-toggle="dropdown" aria-expanded="false" style="height: 50px; width: 60px;">👤</button>
-                        <h2 class="fs-5 m-0 mx-2">Welcome back, {{ Auth::user()->name ?? 'Guest' }}</h2>
+                        <h2 class="typing fs-5 m-0 mx-2">Welcome back, {{ Auth::user()->name ?? 'Guest' }}</h2>
                     <!-- mengecek apakah user sudah login -->
                     <ul class="dropdown-menu" style="background-color: #FBB041; color: white;">
                         @guest
